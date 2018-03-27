@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    border: 5px solid;
+    color: #7983ff;
+    padding: 5px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
