@@ -1,0 +1,19 @@
+.constant-width-to-height-ratio{
+    background: #333333;
+    width: 50%;
+}
+
+.constant-width-to-height-ratio::before{
+    background: #7983ff;
+    content: 'before';
+    padding-top: 100%;
+    float: left;
+}
+
+.constant-width-to-height-ratio::after{
+    background: #8385aa;
+    content: 'after';
+    display: block;
+    padding-top: 100%;
+    clear: both;
+}
