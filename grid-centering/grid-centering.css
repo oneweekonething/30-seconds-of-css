@@ -1,0 +1,7 @@
+.grid-centering{
+    background: #7983ff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
